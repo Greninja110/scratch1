@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %}Error - {{ error_code }}{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8 text-center">
+        <div class="error-template">
+            <h1>
+                Oops!
+            </h1>
+            <h2>
+                {{ error_code }} - {{ error_message }}
+            </h2>
+            <div class="error-details mt-3">
+                Sorry, an error has occurred. {{ error_details }}
+            </div>
+            <div class="error-actions mt-4">
+                <a href="{% url 'login' %}" class="btn btn-primary btn-lg">
+                    <i class="fas fa-home me-2"></i>
+                    Take Me Home
+                </a>
+                <a href="#" class="btn btn-outline-secondary btn-lg ms-2">
+                    <i class="fas fa-envelope me-2"></i>
+                    Contact Support
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

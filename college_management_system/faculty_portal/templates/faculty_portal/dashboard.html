@@ -1,0 +1,196 @@
+{% extends 'base.html' %}
+
+{% block title %}Faculty Dashboard - College Management System{% endblock %}
+
+{% block extra_css %}
+<style>
+    .dashboard-header {
+        background-color: #007bff;
+        color: white;
+        padding: 20px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    .dashboard-stats {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+    .stat-card {
+        flex: 1;
+        min-width: 200px;
+        background-color: white;
+        border-radius: 5px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    .stat-card .number {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #007bff;
+    }
+    .stat-card .title {
+        color: #6c757d;
+        margin-top: 10px;
+    }
+    .class-schedule {
+        background-color: white;
+        border-radius: 5px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+    .quick-actions {
+        background-color: white;
+        border-radius: 5px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .welcome-message {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .schedule-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border-bottom: 1px solid #e9ecef;
+    }
+    .schedule-item:last-child {
+        border-bottom: none;
+    }
+    .schedule-time {
+        font-weight: bold;
+        color: #007bff;
+    }
+    .schedule-subject {
+        flex-grow: 1;
+        margin-left: 10px;
+    }
+    .schedule-room {
+        color: #6c757d;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="dashboard-header">
+    <div class="container">
+        <h1>Faculty Dashboard</h1>
+        <p>Welcome to the College Management System Faculty Portal</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="welcome-message">
+                Welcome, {{ user.first_name }} {{ user.last_name }}!
+            </div>
+            <p class="text-muted">This is the faculty dashboard where you can manage your classes and student information.</p>
+            
+            <div class="dashboard-stats">
+                <div class="stat-card">
+                    <div class="number">0</div>
+                    <div class="title">Classes</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">0</div>
+                    <div class="title">Students</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">0</div>
+                    <div class="title">Assignments</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">0</div>
+                    <div class="title">Hours/Week</div>
+                </div>
+            </div>
+            
+            <div class="class-schedule">
+                <h4>Today's Schedule</h4>
+                <div class="schedule-container">
+                    <div class="schedule-item">
+                        <div class="schedule-time">09:00 - 10:00</div>
+                        <div class="schedule-subject">Introduction to Programming (CSE101)</div>
+                        <div class="schedule-room">Room 101</div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">11:00 - 12:00</div>
+                        <div class="schedule-subject">Data Structures (CSE201)</div>
+                        <div class="schedule-room">Room 203</div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">14:00 - 16:00</div>
+                        <div class="schedule-subject">Web Development Lab (CSE304)</div>
+                        <div class="schedule-room">Lab 3</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="quick-actions">
+                <h4>Quick Actions</h4>
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <i class="fas fa-user-graduate me-2"></i> View Students
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <i class="fas fa-clipboard-list me-2"></i> Mark Attendance
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <i class="fas fa-tasks me-2"></i> Create Assignment
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <i class="fas fa-calendar-alt me-2"></i> View Schedule
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <i class="fas fa-chart-bar me-2"></i> Student Performance
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0">Faculty Profile</h5>
+                </div>
+                <div class="card-body">
+                    <div class="text-center mb-3">
+                        <img src="https://via.placeholder.com/150" alt="Profile Picture" class="rounded-circle">
+                        <h5 class="mt-3">{{ user_profile.full_name }}</h5>
+                        <p class="text-muted">{{ user_profile.role|title }}</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Email
+                            <span>{{ user.email }}</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Department
+                            <span>Computer Science</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Employee ID
+                            <span>FAC001</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Joining Year
+                            <span>2022</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-outline-primary btn-sm">Edit Profile</a>
+                    <a href="{% url 'logout' %}" class="btn btn-outline-danger btn-sm float-end">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

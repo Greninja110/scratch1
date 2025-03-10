@@ -1,0 +1,267 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 302 0
+"GET /auth/login/ HTTP/1.1" 200 5018
+User student@mbit.edu.in logged in successfully
+User profile not found for user: student@mbit.edu.in
+"POST /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: student@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 302 0
+"GET /auth/login/ HTTP/1.1" 302 0
+"GET /student-portal/dashboard/ HTTP/1.1" 200 12016
+"GET /student-portal/dashboard/ HTTP/1.1" 302 0
+"GET /auth/login/?next=/student-portal/dashboard/ HTTP/1.1" 200 5018
+User hod@mbit.edu.in logged in successfully
+User profile not found for user: hod@mbit.edu.in
+"POST /auth/login/?next=/student-portal/dashboard/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+User profile not found for user: hod@mbit.edu.in
+"GET /auth/login/ HTTP/1.1" 302 0
+"GET /auth/login/ HTTP/1.1" 302 0
+"GET /hod-portal/dashboard/ HTTP/1.1" 200 7397
+"GET /hod-portal/dashboard/ HTTP/1.1" 200 7397
+"GET /auth/logout/ HTTP/1.1" 302 0
+"GET /auth/login/ HTTP/1.1" 200 5368
+"GET /hod-portal/dashboard/ HTTP/1.1" 302 0
+"GET /auth/login/?next=/hod-portal/dashboard/ HTTP/1.1" 200 5018
+Forbidden (CSRF token from POST incorrect.): /auth/login/
+"POST /auth/login/?next=/student-portal/dashboard/ HTTP/1.1" 403 2518
+"GET /auth/login/?next=/student-portal/dashboard/ HTTP/1.1" 200 5018
+User admin@mbit.edu.in logged in successfully
+"POST /auth/login/?next=/student-portal/dashboard/ HTTP/1.1" 302 0
+"GET /admin-portal/dashboard/ HTTP/1.1" 200 7398
+"GET /auth/logout/ HTTP/1.1" 302 0
+"GET /auth/login/ HTTP/1.1" 200 5368
